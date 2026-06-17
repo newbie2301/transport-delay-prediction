@@ -1,0 +1,19 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+python-dotenv==1.0.1
+requests==2.32.3
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+joblib==1.4.2
+matplotlib==3.9.0
+
+# Optional, used when available (see backend/model.py for the fallback path):
+tabpfn==2.0.6
+shap==0.45.1
+
+# Testing
+pytest==8.2.2
+httpx==0.27.0
